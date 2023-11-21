@@ -23,7 +23,7 @@ def main():
         screen.blit(kk_imgs[tmr%10], [300, 200]) #練習5：こうかとん羽ばたく
         pg.display.update()
         tmr += 1        
-        clock.tick(400)
+        clock.tick(100)
 
 
 if __name__ == "__main__":
